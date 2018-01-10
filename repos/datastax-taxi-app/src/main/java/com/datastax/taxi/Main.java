@@ -89,20 +89,20 @@ public class Main {
 	}
 
 	/**
-	 * Between 1 and -1
+	 * Between 40 and 45
 	 * 
 	 * @return
 	 */
 	private double getRandomLng() {
-		return (Math.random() < .5) ? Math.random() : -1 * Math.random();
+		return Math.random() * 5 + 40;
 	}
 
 	/**
-	 * Between 50 and 55
+	 * Between 85 and 90
 	 */
 	private double getRandomLat() {
 
-		return Math.random() * 5 + 50;
+		return Math.random() * 5 + 85;
 	}
 
 	private void sleep(int seconds) {

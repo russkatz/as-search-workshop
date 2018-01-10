@@ -1904,3 +1904,440 @@
 01:02:19.265 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
 01:02:20.659 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T03:14:02.614Z
 01:02:20.659 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.datastax:datastax-taxi-app:war:0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 89, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building taxi-app 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ datastax-taxi-app ---
+[INFO] Deleting /home/ds_user/as-search-workshop/repos/datastax-taxi-app/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ datastax-taxi-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ datastax-taxi-app ---
+[INFO] Compiling 14 source files to /home/ds_user/as-search-workshop/repos/datastax-taxi-app/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ datastax-taxi-app ---
+01:11:41.979 [com.datastax.taxi.Main.main()] INFO  c.datastax.driver.core.ClockFactory - Using native clock to generate timestamps.
+01:11:42.312 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+01:11:43.180 [com.datastax.taxi.Main.main()] INFO  c.d.d.c.p.DCAwareRoundRobinPolicy - Using data-center name 'DC1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+01:11:43.183 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.44.247:9042 added
+01:11:43.184 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.46.244:9042 added
+01:11:43.184 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.33.254:9042 added
+01:11:43.419 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Creating Locations
+01:11:43.548 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:11:51.292Z
+01:11:43.562 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:49.557 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:01.292Z
+01:11:49.557 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:52.755 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:11.292Z
+01:11:52.755 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:54.784 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:21.292Z
+01:11:54.784 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:56.269 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:31.292Z
+01:11:56.269 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:57.867 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:41.292Z
+01:11:57.867 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:11:59.606 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:12:51.292Z
+01:11:59.607 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:06.134 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:01.292Z
+01:12:06.134 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:08.217 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:11.292Z
+01:12:08.217 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:10.284 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:21.292Z
+01:12:10.284 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:17.336 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:31.292Z
+01:12:17.336 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:18.791 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:41.292Z
+01:12:18.791 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:20.259 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:51.292Z
+01:12:20.259 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:21.806 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:01.292Z
+01:12:21.806 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:23.412 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:11.292Z
+01:12:23.412 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:25.045 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:21.292Z
+01:12:25.046 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:27.786 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:31.292Z
+01:12:27.786 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:30.367 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:41.292Z
+01:12:30.367 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:32.331 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:51.292Z
+01:12:32.331 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:34.335 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:01.292Z
+01:12:34.335 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:36.203 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:11.292Z
+01:12:36.203 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:38.086 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:21.292Z
+01:12:38.087 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:40.328 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:31.292Z
+01:12:40.328 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:42.195 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:41.292Z
+01:12:42.196 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:44.112 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:51.292Z
+01:12:44.112 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:46.209 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:01.292Z
+01:12:46.210 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:47.942 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:11.292Z
+01:12:47.942 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:50.401 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:21.292Z
+01:12:50.402 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:52.259 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:31.292Z
+01:12:52.259 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:12:54.251 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:41.292Z
+01:12:54.251 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.datastax:datastax-taxi-app:war:0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 89, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building taxi-app 0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+01:12:56.627 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:51.292Z
+01:12:56.627 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ datastax-taxi-app ---
+[INFO] Deleting /home/ds_user/as-search-workshop/repos/datastax-taxi-app/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ datastax-taxi-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ datastax-taxi-app ---
+[INFO] Compiling 14 source files to /home/ds_user/as-search-workshop/repos/datastax-taxi-app/target/classes
+01:12:59.120 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:01.292Z
+01:12:59.120 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ datastax-taxi-app ---
+01:13:01.492 [com.datastax.taxi.Main.main()] INFO  c.datastax.driver.core.ClockFactory - Using native clock to generate timestamps.
+01:13:01.660 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.NettyUtil - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+01:13:02.102 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:11.292Z
+01:13:02.102 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:03.022 [com.datastax.taxi.Main.main()] INFO  c.d.d.c.p.DCAwareRoundRobinPolicy - Using data-center name 'DC1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+01:13:03.025 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.44.247:9042 added
+01:13:03.025 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.46.244:9042 added
+01:13:03.025 [com.datastax.taxi.Main.main()] INFO  com.datastax.driver.core.Cluster - New Cassandra host /172.31.33.254:9042 added
+01:13:03.342 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Creating Locations
+01:13:03.425 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:11.050Z
+01:13:03.426 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:04.557 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:21.292Z
+01:13:04.558 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:07.792 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:31.292Z
+01:13:07.793 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:08.885 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:21.050Z
+01:13:08.885 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:09.514 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:41.292Z
+01:13:09.514 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:12.309 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:31.050Z
+01:13:12.309 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:12.849 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:51.292Z
+01:13:12.850 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:13.950 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:41.050Z
+01:13:13.951 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:14.979 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:01.292Z
+01:13:14.979 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:16.940 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:13:51.050Z
+01:13:16.940 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:17.475 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:11.292Z
+01:13:17.476 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:18.463 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:01.050Z
+01:13:18.463 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:19.799 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:21.292Z
+01:13:19.800 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:20.468 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:11.050Z
+01:13:20.469 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:22.447 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:21.050Z
+01:13:22.448 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:24.170 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:31.050Z
+01:13:24.170 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:26.499 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:41.050Z
+01:13:26.500 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:27.116 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:31.292Z
+01:13:27.116 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:28.082 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:14:51.050Z
+01:13:28.082 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:29.273 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:41.292Z
+01:13:29.273 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:29.956 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:01.050Z
+01:13:29.956 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:30.673 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:51.292Z
+01:13:30.673 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:33.180 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:11.050Z
+01:13:33.180 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:34.134 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:01.292Z
+01:13:34.134 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:34.860 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:21.050Z
+01:13:34.860 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:36.592 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:11.292Z
+01:13:36.592 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:36.934 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:31.050Z
+01:13:36.934 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:38.423 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:21.292Z
+01:13:38.423 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:38.692 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:41.050Z
+01:13:38.692 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:40.736 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:31.292Z
+01:13:40.736 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:40.738 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:15:51.050Z
+01:13:40.738 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:43.149 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:41.292Z
+01:13:43.149 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:43.150 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:01.050Z
+01:13:43.151 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:45.634 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:11.050Z
+01:13:45.634 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:47.232 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:51.292Z
+01:13:47.232 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:47.978 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:21.050Z
+01:13:47.979 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:48.606 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:01.292Z
+01:13:48.606 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:51.316 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:31.050Z
+01:13:51.317 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:51.638 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:11.292Z
+01:13:51.638 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:53.851 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:21.292Z
+01:13:53.852 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:55.863 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:31.292Z
+01:13:55.863 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:57.883 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:41.050Z
+01:13:57.883 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:13:57.902 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:41.292Z
+01:13:57.902 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:00.126 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:51.292Z
+01:14:00.127 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:00.435 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:16:51.050Z
+01:14:00.435 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:02.980 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:01.292Z
+01:14:02.981 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:03.080 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:01.050Z
+01:14:03.081 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:05.243 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:11.292Z
+01:14:05.244 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:07.235 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:11.050Z
+01:14:07.236 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:07.536 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:21.292Z
+01:14:07.536 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:09.478 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:21.050Z
+01:14:09.478 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:10.103 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:31.292Z
+01:14:10.103 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:10.882 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:31.050Z
+01:14:10.882 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:12.193 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:41.292Z
+01:14:12.194 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:12.604 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:41.050Z
+01:14:12.604 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:14.220 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:51.292Z
+01:14:14.220 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:14.701 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:17:51.050Z
+01:14:14.702 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:16.525 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:01.292Z
+01:14:16.525 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:17.199 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:01.050Z
+01:14:17.199 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:17.939 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:11.292Z
+01:14:17.939 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:19.449 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:11.050Z
+01:14:19.450 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:19.967 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:21.292Z
+01:14:19.967 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:21.510 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:21.050Z
+01:14:21.510 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:22.106 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:31.292Z
+01:14:22.106 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:23.171 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:31.050Z
+01:14:23.171 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:23.963 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:41.292Z
+01:14:23.963 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:24.618 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:41.050Z
+01:14:24.618 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:25.486 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:22:51.292Z
+01:14:25.486 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:28.878 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:18:51.050Z
+01:14:28.878 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:29.077 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:01.292Z
+01:14:29.077 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:32.564 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:01.050Z
+01:14:32.565 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:32.597 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:11.292Z
+01:14:32.598 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:35.759 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:11.050Z
+01:14:35.759 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:36.714 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:21.292Z
+01:14:36.714 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:38.823 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:21.050Z
+01:14:38.823 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:40.791 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:31.292Z
+01:14:40.791 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:42.536 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:31.050Z
+01:14:42.536 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:43.016 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:41.292Z
+01:14:43.017 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:44.994 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:41.050Z
+01:14:44.995 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:47.865 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:23:51.292Z
+01:14:47.866 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:50.334 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:19:51.050Z
+01:14:50.334 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:51.093 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:01.292Z
+01:14:51.093 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:53.798 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:11.292Z
+01:14:53.798 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:56.051 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:21.292Z
+01:14:56.052 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:58.518 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:01.050Z
+01:14:58.518 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:59.002 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:31.292Z
+01:14:59.002 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:14:59.892 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:11.050Z
+01:14:59.892 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:01.154 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:41.292Z
+01:15:01.155 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:01.672 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:21.050Z
+01:15:01.672 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:03.671 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:24:51.292Z
+01:15:03.672 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:03.863 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:31.050Z
+01:15:03.863 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:06.104 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:01.292Z
+01:15:06.104 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:06.779 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:41.050Z
+01:15:06.779 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:07.525 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:11.292Z
+01:15:07.525 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:09.243 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:20:51.050Z
+01:15:09.243 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:09.839 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:21.292Z
+01:15:09.839 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:11.102 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:01.050Z
+01:15:11.102 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:12.086 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:31.292Z
+01:15:12.086 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:15.124 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:11.050Z
+01:15:15.124 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:41.292Z
+01:15:15.124 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:15.124 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:18.330 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:25:51.292Z
+01:15:18.330 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:18.462 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:21.050Z
+01:15:18.462 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:20.583 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:01.292Z
+01:15:20.584 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:20.880 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:21:31.050Z
+01:15:20.880 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+[WARNING] 
+java.lang.IllegalArgumentException: latitude must be between -90 and 90 inclusive
+	at com.github.davidmoten.geo.util.Preconditions.checkArgument(Preconditions.java:29)
+	at com.github.davidmoten.geo.GeoHash.encodeHash(GeoHash.java:373)
+	at com.github.davidmoten.geo.GeoHash.encodeHash(GeoHash.java:336)
+	at com.datastax.taxi.VehicleDao.insertVehicleLocation(VehicleDao.java:65)
+	at com.datastax.taxi.Main.updateLocations(Main.java:57)
+	at com.datastax.taxi.Main.<init>(Main.java:39)
+	at com.datastax.taxi.Main.main(Main.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.lang.Thread.run(Thread.java:748)
+01:15:22.764 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:11.292Z
+01:15:22.764 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:24.696 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:21.292Z
+01:15:24.696 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:26.602 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:31.292Z
+01:15:26.603 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:29.229 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:41.292Z
+01:15:29.229 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:31.263 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:26:51.292Z
+01:15:31.263 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:33.396 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:01.292Z
+01:15:33.396 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:35.328 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:11.292Z
+01:15:35.329 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:37.305 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:21.292Z
+01:15:37.306 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:39.214 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:31.292Z
+01:15:39.214 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:41.238 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:41.292Z
+01:15:41.239 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:43.645 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:27:51.292Z
+01:15:43.645 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:45.521 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:01.292Z
+01:15:45.521 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:47.412 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:11.292Z
+01:15:47.413 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:49.528 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:21.292Z
+01:15:49.528 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:51.438 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:31.292Z
+01:15:51.438 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:53.295 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:41.292Z
+01:15:53.295 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:55.252 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:28:51.292Z
+01:15:55.252 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:57.226 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:01.292Z
+01:15:57.226 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:15:59.109 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:11.292Z
+01:15:59.109 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:01.033 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:21.292Z
+01:16:01.033 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:02.966 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:31.292Z
+01:16:02.966 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:04.972 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:41.292Z
+01:16:04.972 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:07.032 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:29:51.292Z
+01:16:07.032 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:09.380 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:01.292Z
+01:16:09.381 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:11.277 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:11.292Z
+01:16:11.277 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:13.281 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:21.292Z
+01:16:13.281 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:15.232 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:31.292Z
+01:16:15.232 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:17.239 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:41.292Z
+01:16:17.239 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:19.137 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:30:51.292Z
+01:16:19.137 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:21.467 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:01.292Z
+01:16:21.467 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:23.657 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:11.292Z
+01:16:23.658 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:25.757 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:21.292Z
+01:16:25.757 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:27.838 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:31.292Z
+01:16:27.838 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:29.688 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:41.292Z
+01:16:29.688 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:31.589 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:31:51.292Z
+01:16:31.589 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:33.577 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:01.292Z
+01:16:33.578 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:35.495 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:11.292Z
+01:16:35.495 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:37.361 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:21.292Z
+01:16:37.361 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:39.265 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:31.292Z
+01:16:39.265 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:41.192 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:41.292Z
+01:16:41.193 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:43.156 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:32:51.292Z
+01:16:43.156 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
+01:16:45.077 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - 2018-01-09T01:33:01.292Z
+01:16:45.077 [com.datastax.taxi.Main.main()] INFO  com.datastax.taxi.Main - Updating Locations
