@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# DSE RPC to localhost
+sed -ie 's/^rpc_address:.*/rpc_address: 0.0.0.0\nbroadcast_rpc_address: 127.0.0.1/g' /etc/dse/cassandra/cassandra.yaml
